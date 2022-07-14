@@ -4,9 +4,9 @@ import android.util.Log
 
 const val TAG = "SUPER AWESOME APP"
 
-fun main() {
-}
+class LogDebug {
 
-fun d(message: String){
-    Log.d(TAG, message)
+    fun d(message: String){
+        Log.d(TAG, message)
+    }
 }
